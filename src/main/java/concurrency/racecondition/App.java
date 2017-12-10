@@ -1,4 +1,4 @@
-package concurrency.race.condition;
+package concurrency.racecondition;
 
 public class App {
     public static void main(String[] args) throws InterruptedException{
