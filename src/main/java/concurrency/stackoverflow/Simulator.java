@@ -8,10 +8,10 @@ public class Simulator {
         if(num == 0)
             return;
         else
-            recursivePrint(++num);
+            recursivePrint(--num);
     }
 
     public static void main(String[] args) {
-        Simulator.recursivePrint(1);
+        Simulator.recursivePrint(10);
     }
 }
